@@ -22,11 +22,11 @@ The Twilio Flex plugin will make a call to one Twilio Function to enable a Twili
 1. For the Twilio Flex Plugin code, make sure to modify the Twilio Function URL’s to start and stop the media streams to the unique FQDN’s of the same Functions created in your unique Flex instance.
 
 #### Twilio Functions
-1. The Twilio Function is created as a public Functions (Twilio Token Validator will moderate the use of this Function by extrernal parties).
+1. The Twilio Function is created as a public Function (Twilio Token Validator will moderate the use of this Function by extrernal parties).
 
-2. For the Twilio Functions, make sure when creating a Twilio Function Service, to update the default Twilio Node Helper Library (under Dependencies) to a more recent version (the default version, 3.29.2 is very old and does not support Media Streams), we used the latest at the time, 3.78.0.
+2. For the Twilio Function, make sure when creating a Twilio Function Service, to update the default Twilio Node Helper Library (under Dependencies) to a more recent version (the default version, 3.29.2 is very old and does not support Media Streams), we used the latest at the time, 3.78.0.
 
-3. For the Twilio Functions, make sure to also add the NPM package, Twilio Token Validator, as a dependency, we used the latest at the time, 1.5.6.
+3. For the Twilio Functions, make sure to also add the NPM package, Twilio Token Validator, as a dependency, we used the latest version at the time, 1.5.6.
 
 4. Cresta will provide a unique Websocket URL (which must be provided in the Twilio Function that initiates the media stream). Make sure to use wss:// as the scheme.
 
