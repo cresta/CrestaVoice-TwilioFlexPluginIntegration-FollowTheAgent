@@ -85,7 +85,7 @@ export default class SamplePlugin extends FlexPlugin {
               "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
             },
           };
-          fetch("https://cresta-8764.twil.io/mediaStartSecWrap", options)
+          fetch("https:///<UPDATE-ME>.twil.io/<UPDATE-ME>", options)
             .then((resp) => resp.json())
             .then((data) => console.log(data));
         });
@@ -123,7 +123,7 @@ export default class SamplePlugin extends FlexPlugin {
                   "application/x-www-form-urlencoded;charset=UTF-8",
               },
             };
-            fetch("https://cresta-8764.twil.io/mediaStartSecWrap", options)
+            fetch("https://<UPDATE-ME>.twil.io/<UPDATE-ME>", options)
               .then((resp) => resp.json())
               .then((data) => console.log(data));
           }
